@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        img:nth-child(2) {
+            display: none;
+        }
+
+        img:nth-child(3) {
+            display: none;
+        }
+
+        @media screen and (max-width: 600px) {
+            img:nth-child(1) {
+                display: none;
+        }
+
+            img:nth-child(2) {
+                display: initial;
+        }
+        }
+
+        @media screen and (min-width: 900px) {
+            img:nth-child(1) {
+                display: none;
+        }
+
+            img:nth-child(3) {
+                display: initial;
+        }
+        }
+
+
+    </style>
+    <title>UD4 Interactividad - Act 3</title>
+</head>
+<body>
+    <img src="https://cdn.pixabay.com/photo/2021/10/14/15/11/cathedral-6709412_960_720.jpg" alt="">
+    <img src="https://cdn.pixabay.com/photo/2021/12/14/21/19/dragonfly-6871359_960_720.jpg" alt="">
+    <img src="https://cdn.pixabay.com/photo/2021/09/13/06/39/bee-6620435_960_720.jpg" alt="">
+</body>
+</html>
